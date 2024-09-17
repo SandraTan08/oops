@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "vite",
+    "serve": "vue-cli-service serve",
     "build": "vite build",
     "preview": "vite preview --port 4173",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@rushstack/eslint-patch": "1.1.0",
     "@vitejs/plugin-vue": "2.3.3",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "7.0.0",
     "eslint": "8.19.0",
     "eslint-plugin-vue": "9.0.0",
